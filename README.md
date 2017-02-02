@@ -1,7 +1,7 @@
 # NodeJS
 Berbagi seputar NodeJS
 
-# Permasalahan umum (Common problems):
+Permasalahan umum (common problems):
 
 - Penggunaan npm di command line, ketika sedang menggunakan proxy.
    Solusi:
@@ -20,8 +20,3 @@ Berbagi seputar NodeJS
    - Ikuti langkah berikut:
      - npm config rm proxy
      - npm config rm https-proxy
-   - Source: 
-     - http://stackoverflow.com/questions/21228995/how-to-clear-https-proxy-setting-of-npm
-     - http://jonathanblog2000.blogspot.co.id/2013/11/set-and-reset-proxy-for-git-and-npm.html
-     - http://luxiyalu.com/how-to-remove-all-npm-proxy-settings/
-     
