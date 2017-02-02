@@ -15,5 +15,6 @@ Permasalahan umum (common problems):
    -- https://jjasonclark.com/how-to-setup-node-behind-web-proxy/
    - NB: jika username menggunakan nama domain (e.g. usernameku@namaweb.com), maka ganti symbol @ dengan %40 (e.g. usernameku%40namaweb.com)
 2. Disable proxy (karena sudah di enabled sesuai langkah no.1).
-  Ikuti langkah berikut:
-  ...
+   - Ikuti langkah berikut:
+     > npm config rm proxy
+     > npm config rm https-proxy
